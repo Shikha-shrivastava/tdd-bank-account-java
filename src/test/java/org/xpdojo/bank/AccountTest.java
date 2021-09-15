@@ -10,6 +10,14 @@ public class AccountTest {
     @Test
     public void BalanceCheckAsZero(){
         Account account =new Account();
-       assertThat (account.blalace, is (0));
+       assertThat(account.balance, is (0));
+    }
+
+@Test
+public void depositAmountToIncreaseTheBalance() {
+    assertThat("check deposite balance",
+            true,
+            is(false));
+
     }
 }
